@@ -1,7 +1,15 @@
 {
+  "name": "codeeditorproject",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
   "dependencies": {
     "@monaco-editor/react": "^4.4.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
